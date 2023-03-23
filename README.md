@@ -67,5 +67,4 @@
     <footer>
       <p><small>Sin Derechos de Autor - <a href="https://www.freecodecamp.org/espanol/">freeCodeCamp.org</a></small></p>
     </footer>
-  </body>
-</html>
+ 
