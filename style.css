@@ -1,0 +1,82 @@
+
+
+ 
+ body {
+
+    font-family: Arial, sans-serif;
+  }
+ 
+  /* Modificar el color del texto de los encabezados */
+ h1, h2, h3,  h6 {
+    color: #8E44AD;
+  }
+ 
+  /* Agregar un borde a las imágenes */
+  img {
+    display: block;
+    border: 2px solid black;
+    filter: drop-shadow(0 0 18px rgb(205, 8, 231));
+  }
+ 
+  /* Modificar el tamaño del texto de los enlaces */
+  a {
+    font-size: 18px;
+    color: #8E44AD;
+    text-decoration: none;
+  }
+ 
+  /* Cambiar el color de los enlaces al pasar el mouse sobre ellos */
+  a:hover {
+    color: #FFF;
+    background-color: #8E44AD;
+  }
+ 
+  /* listas */
+  ul, ol {
+    margin-left: 30px;
+  }
+ 
+  ul li {
+ 
+    margin: 5px 0;
+  }
+ 
+  ol li {
+    list-style-type: decimal;
+    margin: 5px 0;
+  }
+ 
+  /* formulario */
+  form {
+    display: block;
+    border: 2px solid black;
+    filter: drop-shadow(0 0 18px rgb(205, 8, 231));
+    margin: 20px auto;
+    width: 60%;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+    border: red 5px solid;
+ 
+  }
+ 
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+ 
+  button[type="submit"], button[type="reset"] {
+    background-color: #8E44AD;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 5px;
+ 
+    
+  }
